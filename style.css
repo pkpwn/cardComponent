@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+}
+
+.cardContainer {
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 60vh;
+    width: 150vh;
+}
+
+.img {
+    background-image: url(images/image-header-desktop.jpg) no-repeat;
+    background-size: cover;
+    
+    
+
+}
+
+.imgContainer {
+    width: 500px;
+    height: 60vh;
+    background: hsl(277, 64%, 61%);
+    opacity: 0.4;
+    background-image: url(images/image-header-desktop.jpg) no-repeat;
+    border: 4px solid blue;
+}
+
+.textContainer {
+    background-color: hsl(244, 38%, 16%);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+
+.titleContainer {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+.pContainer {
+    margin-top: 2rem;
+    text-align: left;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+    margin-top: 10vh;
+}
+
+span {
+    color:hsl(277, 64%, 61%);
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
