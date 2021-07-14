@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+}
+
+
+    
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardContainer{
+    background-color: hsl(277, 64%, 61%);
+    width: 80%;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    overflow: hidden;
+
+    
+    
+    
+    
+
+}
+
+.imgColor {
+    background-color:hsl(277, 64%, 61%);
+    mix-blend-mode: multiply;
+    
+}
+img {
+    height: 13rem;
+    width: 100%;
+    
+}
+.imgContainer {
+    background-image: url(../frontendmentor/images/image-header-mobile.jpg);
+    height: 13rem;
+    width: 100%;
+    background-size: contain;
+    
+}
+
+.textContainer {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.titleContainer {
+    color: white;
+    margin-top: 3rem;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+.purple {
+    color:hsl(277, 64%, 61%);
+    font-size: 1.5rem;
+}
+.pContainer {
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: center;
+    width: 80%;
+    height: 17vh;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2rem;
+    
+}
+
+.pText {
+    font-size: 0.8rem;
+}
+
+.statsContainer {
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6rem;
+    
+}
+
+
+.statText {
+    text-transform: uppercase;
+}
+
+.numb {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+
+.stats1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.stats2 {
+    text-align: center;
+}
+
+.stats3 {
+    text-transform: uppercase;
+    text-align: center;
+}
